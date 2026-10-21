@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Design tokens taken from the movebase Figma file */
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-signature: "Lora", Georgia, serif;
+
+  --color-ink: #182435;
+  --color-muted: #677588;
+  --color-subtle: #8a96a7;
+  --color-line: #e4e9f0;
+  --color-canvas: #f5f7fa;
+  --color-panel-alt: #f9fafc;
+  --color-tab-track: #e9edf3;
+  --color-navy: #142942;
+
+  --color-brand: #2864df;
+  --color-brand-soft: #edf3ff;
+  --color-brand-deep: #1d4fac;
+  --color-brand-border: #bdd1fa;
+  --color-brand-light: #92b4fa;
+  --color-brand-pale: #a6c3fa;
+
+  --color-success: #19805d;
+  --color-success-soft: #eaf6f0;
+
+  --color-warn: #a66a0d;
+  --color-warn-soft: #fff5df;
+  --color-warn-border: #f0deb5;
+  --color-warn-row: #fffcf5;
+
+  --color-map: #ecf1f2;
+  --color-park: #ddebdd;
+  --color-travel: #c5cfde;
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
